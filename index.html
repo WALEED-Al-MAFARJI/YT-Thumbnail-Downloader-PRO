@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>YT Thumbnail Downloader PRO</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="keywords"
+        content="YouTube, YouTube Thumbnail Downloader, Thumbnail Downloader, Thumbnails, Download Thumbnails, Download YouTube Thumbails, YouTube Video Thumbnail Downloader, Youtube Thumbnail Downloader, YT, YT Thumbnail Downloader, Youtube Thumbnail Downloader HD, YouTube Thumbnail Downloader Online, Clean and Simple YouTube Thumbnail Downloader, CLean and Simple, YouTube Thumbnails, YouTube HD Thumbnail Downloader, High Definition Thumbnail Downoader, YT Thumbnail Research, Download YouTube Thumbnail, Download YouTube Thumbnails Easily, Harsh Trivedi, صوره مصغره, تحميل الصوره المصغره, تحميل الصوره المصغره يوتيوب, كيف يمكنني ان اقوم بتنزيل صوره مصغره,تنزيل الصوره المصغره">
+
+<meta property="og:title" content="YouTube Thumbnail Downloader Pro" />
+    <meta property="og:description"
+        content="Download YouTube video thumbnails with ease. Free, Clean & Simple YouTube Thumbnail Downloader for you." />
+
+  <!-- Favicons -->
+  <link href="favicon.png" rel="icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="font-awesome.min.css" rel="stylesheet">
+  <link href="animate.min.css" rel="stylesheet">
+  <link href="ionicons.min.css" rel="stylesheet">
+  
+  
+  <!-- Main Stylesheet File -->
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="YT-Thumbnail-Downloader-PRO.css">
+
+
+
+    <!--fontawesome --->
+    <script src="https://kit.fontawesome.com/d0da38561b.js" crossorigin="anonymous"></script>
+    
+  <!-- =======================================================
+    Theme Name: NewBiz
+    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a  href="#intro" class="scrollto"><p style="font-size:22px; margin-right: 27px;">YT Thumbnail Downloader PRO</p></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro"><i class="fa-solid fa-house"></i> الرئيسيه</a></li>
+          <li><a href="#about"><i class="fa-solid fa-image"></i> بدء</a></li>
+          <li><a href="#app-download"><i class="fa-solid fa-download"></i> تحميل التطبيق</a></li>
+          <li><a href="#portfolio"><i class="fa-brands fa-android"></i> تطبيقاتنا</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-headset"></i> أتصل بنا</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <img src="intro.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info">
+        <h2>تحميل الصور المصغره<br><span>سهل</span><br>ومجاني وبدون إعلانات</h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">بدء</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>YT Thumbnail PRO</h3>
+        <!-- start YT Thumbnail PRO -->
+          
+        <div class="container text-center" id="main">
+        <div id="result" class="hidden">
+            <!-- THUMBNAIL PREVIEW -->
+            <img class="shadow" id="thumbnailpreview" src="placeholder.png"
+                onerror="this.style.display='none'" />
+            <!-- THUMBNAIL PREVIEW -->
+            <hr style="width:50vw;">
+            <!-- INPUT AREA -->
+            <div class="input-group">
+                <input id="ytlink" autofocus type="text" class="form-control shadow"
+                    placeholder="URL أدخل عنوان لفيديو يوتيوب " spellcheck="false"
+                    onsubmit="youtube_thumbnail_downloader(ytlink.value);ShowMain()" autocomplete="off" />
+            </div>
+            <button id="thumbdloadbtn" class="thumbdloadbtn site-gradient" type="button"
+                onclick="youtube_thumbnail_downloader(ytlink.value);ShowMain()"><i class="fa-solid fa-eye"></i> جلب </button>
+            <!-- INPUT AREA -->
+
+            <!-- Download Buttons -->
+           <div id="download-buttons">
+          <a target="_blank" id="thumbnailhq" download><button class="thumbdloadbtn site-gradient shadow"><i class="fa-solid fa-download"></i> جوده عاليه </button></a>
+                <br>
+                <a target="_blank" id="thumbnailmq" download><button class="thumbdloadbtn site-gradient shadow"><i class="fa-solid fa-download"></i> جوده متوسطه</button></a>
+                <br>
+                <a target="_blank" id="thumbnaillq" download><button class="thumbdloadbtn site-gradient shadow"><i class="fa-solid fa-download"></i> جوده منخفضه</button></a>
+                <br>
+                <a onclick="location.reload();"><button
+                        class="thumbdloadbtn site-gradient shadow"><i class="fa-solid fa-rotate"></i> إعاده</button></a>
+            </div>
+            <!-- Download Buttons -->
+        </div>
+    </div>
+   
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <p>تحميل الصوره المصغره لفيديو يوتيوب  بجوده عالبه</p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p style="text-align: center;">
+              يمكنك الأن تحميل الصور المصغره لفيديو يوتيوب وبجوده عاليه 
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa-solid fa-paste"></i></div>
+              <h4 class="title"><a href="">نسخ الرابط</a></h4>
+              <p class="description">كل ما عليك ان تقوم بنسخ رابط فيديو يوتبوب</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa-solid fa-clipboard-check"></i></div>
+              <h4 class="title"><a href="">لصق الرابط</a></h4>
+              <p class="description">تقوم بلصق الرابط الذي نسخته في الخانه</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="">تحميل الصوره</a></h4>
+              <p class="description">تقوم بالنقر على كلمه جلب وتقوم باختيار الجوده التي تناسبك</p>
+            </div>
+            <!-- app download button -->
+   <div style="text-align: center;">
+        <a href="https://f12.file-upload.download:183/d/qmxb362enlgpv7w7g66zefqns6mns2j57cdqll2xj7luiwkvauy7zvuxzhdbmmkdrrnwsic5/video.mp4" <button style="background: #fff;
+      color: red;
+      border: solid 1px red;
+      border-radius: 300em;
+      height: 60px;
+      width: 50%;
+         :hover{color: #000;}
+         
+         
+         
+         " ><i class="fa-solid fa-download"></i>
+           تحميل التطبيق</button></a>    
+            </div>
+          </div>
+    <div id="app-download"  class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="intro.png" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="about-extra-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>ما المقصود بالصور المصغرة؟</h4>
+            <p>
+              الصورة المصغرة Video thumbnail هي صورة صغيرة أو مقطع فيديو بسيط يٌمثل ويختصر محتوى أكبر مثل فيديو أو مقالة.</p>
+            <p>
+            يمكن للمشاهدين تصفح الصور المصغرة والنقر على للمعاينة عبر توسيع الصورة أو عرض الفيديو. وتعمل الصور المصغرة على إنشاء محتوى أصغر يمكن عرضه بسهولة على المشاهدين لتحديد ما إذا كان هذا المحتوى هو حقا ما يرغبون بمشاهدته؟
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>تقدم الصور المصغرة تلميحا حول محتويات مقال أو مقطع فيديو وكلما قُدمت بشكل جيد جذبت المشاهدين أكثر.</h4>
+            <p>
+           وحتى لو لم يشاهد المستخدم الفيديو فإن الصور المصغرة تضيف سياقًا مهمًا إلى المحتوى من خلال حث المشاهدين على النقر ومعرفة المزيد.
+           ففي عالمنا اليوم تتحرك الأمور بسرعة كبيرة ؛ لذالك عندما يقرر المشاهد في غضون ثوانٍ ما إذا كان الفيديو الذي تقدمه يستحق الاهتمام، فإن الصور المصغرة تلعب دورا مهما أكثر مما تتوقع في هذه الثوان.  </p>
+            <h4>
+          صناعة الصورة المصغرة  </h4>
+            <p>
+           تقوم العديد من قنوات اليوتيوب بتحديد الصورة المصغرة تلقائيًا عند تحميلك للفيديو، ولكن في أغلب الأحيان تكون  هذه التحديدات العشوائية غير مرضية و لتجنب ذلك يمكنك  تحديد صورة من اختيارك. سنعرض لك فيما يلي كيفية إنشاء الصور المصغرة وتغييرها على يوتيوب بسهولة. </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="clearfix">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">تطبيقاتنا</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">الكل</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="app1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 1</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="web3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 3</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="app2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 2</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="card2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 2</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="web2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 2</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="app3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 3</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="card1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 1</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="card3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 3</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="web1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 1</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>أتصل بنا</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i style="font-size: 20px;" class="fa-solid fa-map-location-dot"></i>
+                <a href="https://www.google.com/search?q=%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%2F%D9%83%D8%B1%D9%83%D9%88%D9%83">العراق/كركوك</a>
+              </div>
+              <div class="col-md-4 info"><i style="font-size: 20px;" class="fa-solid fa-envelope"></i>  
+      <a href="mailto:wleedrad100@gmail.com"> wleedrad100@gmail.com</a>
+              </div>
+              <div class="col-md-3 info">
+              <i style="font-size: 20px;" class="fa-solid fa-phone"></i>
+                <a href="tel:+9647824083820">+964 7824083820</a>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+       <br>  
+      <a style="color: #fff; marks-right:200px;"  href="https://fs-allah10.blogspot.com"><svg color="#00C4FF" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+        <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+      </svg> موقعنا الرسمي</a>
+      
+     
+    
+      <div class="container">
+        <div class="row">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; YT Thumbnail PRO </strong>جميع القوق محفوضه</strong>
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
+        -->
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="jquery.min.js"></script>
+  <script src="jquery-migrate.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="easing.min.js"></script>
+  <script src="mobile-nav.js"></script>
+  <script src="wow.min.js"></script>
+  <script src="waypoints.min.js"></script>
+  <script src="counterup.min.js"></script>
+  <script src="owl.carousel.min.js"></script>
+  <script src="isotope.pkgd.min.js"></script>
+  
+  <!-- Template Main Javascript File -->
+  <script src="main.js"></script>
+  <!-- YT-Thumbnail-Downloader-PRO -->
+  <script src="YT-Thumbnail-Downloader-PRO.js"></script>
+
+</body>
+</html>
